@@ -1,0 +1,1192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001BEBCB4A624AE78B192B653B0F6FDD /* Pods-ElectricityPriceTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD797B1E34C546539D67454409E05C7D /* Pods-ElectricityPriceTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0164874C787A4DFD9A2DC151876A7302 /* Tokeniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF441248AE1957F7F69C46C49728CA4F /* Tokeniser.swift */; };
+		02490C6B1217232CE5AF70BD47ED86F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0342BF206E97814ACA2712C131F4CFD7 /* Pods-ElectricityPriceTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114B0B2932AA124908C8D9558DFD5354 /* Pods-ElectricityPriceTracker-dummy.m */; };
+		06E6EC35CF1497EE85D0071989082B75 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579472863FEDE3DA66D3DF9BDC6690 /* Validate.swift */; };
+		074190E81EE519DA0006CFC3820AA73C /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A150A1164F4597249C1CC22A08514 /* Attribute.swift */; };
+		13116394B2938BAFFFB814C37DDF5478 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F1B70C1EB2A823B02F8E0809DE33 /* ParseError.swift */; };
+		14D2F0801445037DD90EBECE275CCAFC /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF60D4E06EC2825C6D240C299FA64B6 /* SimpleDictionary.swift */; };
+		1ABE302122A48FFA4B20919BEF7967D9 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C8E3778250063CDCA751FF3C07228 /* Attributes.swift */; };
+		1C3BE9C4DE3BAD92FFD27672E3C1E5E0 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623D4D31F2BB36B9282ACCB004E128A /* StructuralEvaluator.swift */; };
+		1EB08DCD86C71121743627986E3EA930 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F00DEC1BC8B4D5A80D63868C1713D85 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE2D71733C66B8EA171CF71F274AD7B /* SwiftSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98798FF78561B3A9BD8E22E550C5756B /* SwiftSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E334A0B5421E7EAC22C99662E71AD0 /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336488711F057260A64D1A39E12D5CCE /* Evaluator.swift */; };
+		24CA7879765EFEE439A720E92146418D /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAA2F119E411B451C371AA7464F80D /* BinarySearch.swift */; };
+		376F847BA243469C21DAE82AA3E0C5F5 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4573351C38C1202D81555B39803E1DB0 /* Elements.swift */; };
+		3A6E525BD14E01728384E567F20FDDAC /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A208D5CF6D4B3074D53AB685483086 /* ParseErrorList.swift */; };
+		3B73FB7602B288EDDD02A3AED240BBCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4027E3DE0D000700F7F66955D45984D8 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FAD9C9B226DE824B6EFF250B7BD74 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m */; };
+		45673AE92514BF69AF9412E0DCBE15B0 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C15490032EF5AC9284135D62D672BE /* TokenQueue.swift */; };
+		45FC87D506E3650449FC12F92F8B0E06 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01308D6D0537A26D7AD532AEDDA146C1 /* TreeBuilder.swift */; };
+		4D77839745AA966C4749C4D35702CBD1 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BB89AD6DCCE865EE4F357F04A69D5 /* Connection.swift */; };
+		52867E6C73ACC79D9978F81B6F276F39 /* CssSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DCC59F107E1CA97FBCEE8C9693574 /* CssSelector.swift */; };
+		5D78071CD5656D271045206782E74DD4 /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1787E34F162938644425A984783B /* SwiftSoup-dummy.m */; };
+		5DF7BE8BDE06F5F8A9E8EAA6C417E5F2 /* XmlDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB84EDD1F75DB7A8A1727807EA2297 /* XmlDeclaration.swift */; };
+		5F4ED55CC09EB46D904E031933DBF367 /* TokeniserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F854BAB0C4C60662F48CB188AE8C399 /* TokeniserState.swift */; };
+		618084A12999CD21681FD5B156AF9D6A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E2D4DBC5D8908346F1EA900D71FBD6 /* Node.swift */; };
+		69FCB2EACA682EE86A3A6BC5DDD0DF85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6B5C8AD17802DD5FF96D195E3ECC6F1E /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727A835A3709630D70AED88E1A22A0A /* Whitelist.swift */; };
+		6C35C32F5CE2C952C5EC6A3820077C4C /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70C59F1E54332A45E8B7AC5EB5B8CB /* Cleaner.swift */; };
+		6CDA2913A22C297AF851ABC4C09EEE6E /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D377A3634DB286D61234431EAD251A /* StringUtil.swift */; };
+		7AF5D841764CC3FC3151F80731A8E9D6 /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66DE2FB455909CAABC8FA3D0753B3F5 /* SerializationException.swift */; };
+		7C36C38F4C43E214F2832255B4FCEE29 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7DB187804A04AFB9F3A954C88DF32 /* TextNode.swift */; };
+		80CC1643AFB8E97E373850864CF6D737 /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67BF3F0F051C7B5528C82E4EDA225D /* CharacterReader.swift */; };
+		81CF6958A70123BAC1F5D1979D3FE794 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59095F6928F0D82E8BD6D02B57C3090F /* ArrayExt.swift */; };
+		85BE075A8DCF642107DC4A3D26BDF7CE /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0175F7F35E49AEFEE92709A24366FC3 /* Collector.swift */; };
+		89EC936DDD9BED263C765A5743FD8E7A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E558BE17FA6711BA074E4A039BF60 /* Comment.swift */; };
+		8E197D4AD235B14B121B0A5C1E2CDD7C /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB64C7E452809B60ED589ABB872D65 /* UnfairLock.swift */; };
+		8EED6C0B7AA4F4798D1B715DEEE9A3A1 /* Pods-ElectricityPriceTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE0651C3CB69600CF35B7F02F7C981 /* Pods-ElectricityPriceTrackerTests-dummy.m */; };
+		90E147F175C6F91E818209973267D762 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A41EE24BE59C634DF497CC02A8F491 /* Document.swift */; };
+		91EB0B8458D9BB52F73356F7A33AF2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95072417FF5C5037B9ECBC3C98608A08 /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E727EE6A6132C8FA1A40EAD3AC309 /* HtmlTreeBuilderState.swift */; };
+		9602459CA9CECAF90A5F944D275D3147 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278A2E92A26D3084CF9C3D9F9414DB9 /* CharacterExt.swift */; };
+		96C2CD5999BA4FDE142D7B2C05926FD1 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568D16141AD049634899CAB31AC17E8 /* DataUtil.swift */; };
+		9C44B1CE0CA33C9E0E6430EA80EC2463 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C2F1417526564F84BBAC776805362 /* Mutex.swift */; };
+		9CD6A20DAAC782E6E212B91CA3CA6E04 /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5558DDAE371319F5E962F8BEB31DF6 /* HtmlTreeBuilder.swift */; };
+		9F1BA85D819A6EEECC92694A01CFD003 /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA455C4F05048B64ACA785C8534171C9 /* OrderedSet.swift */; };
+		A37C92BC9F91B8DCDB303FA1C18E5DFF /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B231465575BD3ADBCA5B2E8149641AE /* Token.swift */; };
+		A39ECFB39DACC7F1614A2802E02DD830 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8CD8B03DF44278119FC6D213CE09C /* StringBuilder.swift */; };
+		A7F478679173D8BFBEB9C48A79E39361 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC017285054CEF79EE35BA0855917D8 /* Pattern.swift */; };
+		AE359B5213A2132193874865FC504BB7 /* ParseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC9CD99C893592332E533C64E58EFB /* ParseSettings.swift */; };
+		AF4C15580ECBF0F36259131B73AD9901 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77945861C754401AF3C615A0D34D9B /* StreamReader.swift */; };
+		B0162DBEF105F9758797D7A02CF41135 /* XmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E0BA9DCEEFAF7C0371600CC84A842 /* XmlTreeBuilder.swift */; };
+		C248FC0E04BA0ECAFAED628A6B623C06 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CC70F2BEBC6096D343FD0C0ED481F /* QueryParser.swift */; };
+		C7EF3E2CC6E5389739801898FA80D3BD /* DataNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CB9B1A473AE0F2C89CB365966D2933 /* DataNode.swift */; };
+		C964F1E77F6BC321E3D14E80DE4579A3 /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BB69FAB39859478B66956A5C507C2 /* NodeVisitor.swift */; };
+		CA9888C9D2C6E0EFD0F87A52B0F4684B /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1C07982BD3F29F7D5B886EAC2538 /* Tag.swift */; };
+		CB0ED2A1B0D64727700C570E5FC14BA2 /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EE880A2E34AEEF22B01A78AA2C5D7C /* FormElement.swift */; };
+		CF584413311627386E954087BD5A1F91 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B799D52A416EBC4384E78CD4BDC810C /* DocumentType.swift */; };
+		D57CA49EF01E90DA17EB4875F31DBE1F /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FE01D50DCC6942CEEEDC792D40893F /* Exception.swift */; };
+		DAE52A509408A27DCEE44A223077E030 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFDE39FB2915EABE537D4F9D3628323 /* Element.swift */; };
+		DE01DF328221455AB41A477CD641BFA0 /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2452496B7A170236C11B6E7E2A1BB30 /* CombiningEvaluator.swift */; };
+		E2FC8E0A6DFF9E0B3B217B198601135F /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B4487D00A5B8D08C313CFEFE4C99A /* Entities.swift */; };
+		E9086BC598FD73F645AFE4F544F8F437 /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F804C0E6B6D64A423A40C49E2D97D6 /* NodeTraversor.swift */; };
+		EBF0B968E932B70626B9446A33AB18F4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC88E5CF4380C226F72D4ABD7BBF9 /* String.swift */; };
+		EEE753064CCDB1DF83FBC4C462A12915 /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571A2DF905F09EFE58342F788D69ED62 /* UnicodeScalar.swift */; };
+		EF2C9DD140B07E35F2D17C6964AF98D1 /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF68BBCB4009998608BFE97E097BE6 /* HttpStatusException.swift */; };
+		F0872B6D1985D4185F221B5961CC7B21 /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F3863FE4796DF179CD766D40A6339B /* SwiftSoup.swift */; };
+		F5C1402B8168B8DC77DC451A619C9EB3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17910EE401735600A29817322559C7A5 /* Parser.swift */; };
+		F647969B43100F402A9C540D771F21F9 /* Pods-ElectricityPriceTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D299C6E05568D2636AC6D93759753A7 /* Pods-ElectricityPriceTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E0D10FF9A763D38DD1C00323A248E4 /* BooleanAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FC6AF1038AF101A320E7DECB7F186B /* BooleanAttribute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177F8680BE9FCC79F61BD4317C58030B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89F48405DFAFEF441B4E758A15117A5;
+			remoteInfo = SwiftSoup;
+		};
+		A571C4A8E350AC8BD3E0A6DA6571E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89F48405DFAFEF441B4E758A15117A5;
+			remoteInfo = SwiftSoup;
+		};
+		EE6ED5989A262334FF7D4FEC444C75CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3A282CE0F7CB17988AAF245D0356B1;
+			remoteInfo = "Pods-ElectricityPriceTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007CC70F2BEBC6096D343FD0C0ED481F /* QueryParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParser.swift; path = Sources/QueryParser.swift; sourceTree = "<group>"; };
+		009E6A8B18BED738FD5BA2F9DC9EC3DC /* Pods-ElectricityPriceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		01308D6D0537A26D7AD532AEDDA146C1 /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
+		04EE1C07982BD3F29F7D5B886EAC2538 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
+		0568D16141AD049634899CAB31AC17E8 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
+		06FC6AF1038AF101A320E7DECB7F186B /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
+		090E558BE17FA6711BA074E4A039BF60 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
+		0997EAE7562E54E6B4379F3E7B6B5326 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09B730431AE4E2FA8E06911CE12E6350 /* Pods-ElectricityPriceTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElectricityPriceTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F5558DDAE371319F5E962F8BEB31DF6 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
+		114B0B2932AA124908C8D9558DFD5354 /* Pods-ElectricityPriceTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElectricityPriceTracker-dummy.m"; sourceTree = "<group>"; };
+		14FE01D50DCC6942CEEEDC792D40893F /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = Sources/Exception.swift; sourceTree = "<group>"; };
+		15BDE9925BACDB33555B0E7157001F20 /* Pods_ElectricityPriceTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ElectricityPriceTracker.framework; path = "Pods-ElectricityPriceTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17910EE401735600A29817322559C7A5 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		17E2D4DBC5D8908346F1EA900D71FBD6 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		181B80C4CD959E12C0933555CC30F828 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		1BAFC88E5CF4380C226F72D4ABD7BBF9 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		1F3E0BA9DCEEFAF7C0371600CC84A842 /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
+		21C15490032EF5AC9284135D62D672BE /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
+		2A70C59F1E54332A45E8B7AC5EB5B8CB /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
+		2BF60D4E06EC2825C6D240C299FA64B6 /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
+		2D299C6E05568D2636AC6D93759753A7 /* Pods-ElectricityPriceTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElectricityPriceTracker-umbrella.h"; sourceTree = "<group>"; };
+		2F77945861C754401AF3C615A0D34D9B /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
+		336488711F057260A64D1A39E12D5CCE /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
+		37EE880A2E34AEEF22B01A78AA2C5D7C /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
+		4573351C38C1202D81555B39803E1DB0 /* Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elements.swift; path = Sources/Elements.swift; sourceTree = "<group>"; };
+		491E7C23EDC9934A924921B1A66D597C /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE7DB187804A04AFB9F3A954C88DF32 /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
+		4DFF68BBCB4009998608BFE97E097BE6 /* HttpStatusException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpStatusException.swift; path = Sources/HttpStatusException.swift; sourceTree = "<group>"; };
+		4F00DEC1BC8B4D5A80D63868C1713D85 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		5029DE5DE798F56AA54F7AE4B422F7F8 /* Pods-ElectricityPriceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		571A2DF905F09EFE58342F788D69ED62 /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
+		5792B77C6C1397AEA2DCF911D345AE55 /* Pods-ElectricityPriceTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTracker-Info.plist"; sourceTree = "<group>"; };
+		59095F6928F0D82E8BD6D02B57C3090F /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
+		5B231465575BD3ADBCA5B2E8149641AE /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
+		5DE0B74AFD419A9898B7C81B2E7E49DB /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBB84EDD1F75DB7A8A1727807EA2297 /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
+		6596BB140FCF75E99E47710A7715A5AA /* SwiftSoup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.debug.xcconfig; sourceTree = "<group>"; };
+		65CB649102EFB5B13CCDFC092DC398C6 /* SwiftSoup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.release.xcconfig; sourceTree = "<group>"; };
+		68F804C0E6B6D64A423A40C49E2D97D6 /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
+		6CB9D182BC4A2C8226E6E16DD4386674 /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
+		6CDAA2F119E411B451C371AA7464F80D /* BinarySearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinarySearch.swift; path = Sources/BinarySearch.swift; sourceTree = "<group>"; };
+		6D6E727EE6A6132C8FA1A40EAD3AC309 /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
+		6DAE0651C3CB69600CF35B7F02F7C981 /* Pods-ElectricityPriceTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElectricityPriceTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		706C8E3778250063CDCA751FF3C07228 /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
+		70D6F306DBC24C02C4B09E229646A60B /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
+		72709FDADCC97B74169D31BF6F4A7793 /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79D8C8269318DDB40CB68B51DD5D456B /* Pods-ElectricityPriceTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		7B799D52A416EBC4384E78CD4BDC810C /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
+		8495F1B70C1EB2A823B02F8E0809DE33 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
+		849BB89AD6DCCE865EE4F357F04A69D5 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
+		9208E58F6D9AB89CC7AE150CB821E58F /* Pods-ElectricityPriceTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94017D5CB9883DC982C0E419BA37AE4A /* SwiftSoup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSoup-Info.plist"; sourceTree = "<group>"; };
+		94B2290157E1736E62C22B16E0A38C19 /* Pods-ElectricityPriceTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElectricityPriceTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98798FF78561B3A9BD8E22E550C5756B /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
+		995A4A48A2FE050FDD0C464EA5F617FC /* Pods-ElectricityPriceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F854BAB0C4C60662F48CB188AE8C399 /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
+		9FF70744B8664A65337E89D23C3F34E5 /* Pods-ElectricityPriceTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElectricityPriceTracker-frameworks.sh"; sourceTree = "<group>"; };
+		A52DCC59F107E1CA97FBCEE8C9693574 /* CssSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CssSelector.swift; path = Sources/CssSelector.swift; sourceTree = "<group>"; };
+		A66DE2FB455909CAABC8FA3D0753B3F5 /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
+		A6A208D5CF6D4B3074D53AB685483086 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
+		A6CB64C7E452809B60ED589ABB872D65 /* UnfairLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnfairLock.swift; path = Sources/UnfairLock.swift; sourceTree = "<group>"; };
+		A6D377A3634DB286D61234431EAD251A /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
+		A9F3863FE4796DF179CD766D40A6339B /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
+		ADC017285054CEF79EE35BA0855917D8 /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		AF780CC9FEB9669D66CCB7304BA02BD4 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B623D4D31F2BB36B9282ACCB004E128A /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
+		B727A835A3709630D70AED88E1A22A0A /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
+		BA455C4F05048B64ACA785C8534171C9 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		BECC9CD99C893592332E533C64E58EFB /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
+		C6CB9B1A473AE0F2C89CB365966D2933 /* DataNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataNode.swift; path = Sources/DataNode.swift; sourceTree = "<group>"; };
+		CD797B1E34C546539D67454409E05C7D /* Pods-ElectricityPriceTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElectricityPriceTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		CE1FAD9C9B226DE824B6EFF250B7BD74 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		CE8E1787E34F162938644425A984783B /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
+		CF441248AE1957F7F69C46C49728CA4F /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
+		D2452496B7A170236C11B6E7E2A1BB30 /* CombiningEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombiningEvaluator.swift; path = Sources/CombiningEvaluator.swift; sourceTree = "<group>"; };
+		D278A2E92A26D3084CF9C3D9F9414DB9 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
+		D6A80730347AE082EBBEB7743F86651E /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D78F881E6D388BAF10F2AEB83BE4D10B /* Pods-ElectricityPriceTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElectricityPriceTrackerTests.modulemap"; sourceTree = "<group>"; };
+		D790058B488173F88D02AB0305AF3645 /* Pods_ElectricityPriceTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ElectricityPriceTrackerTests.framework; path = "Pods-ElectricityPriceTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9285C2F4DA939B996D8B2F456356F2C /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		D9A41EE24BE59C634DF497CC02A8F491 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		DA3BB69FAB39859478B66956A5C507C2 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
+		E1C8CD8B03DF44278119FC6D213CE09C /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
+		E5056A6D843F10384A0FECAE19D9B3C4 /* Pods-ElectricityPriceTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectricityPriceTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAFDE39FB2915EABE537D4F9D3628323 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		EC038EAAED64301196E41CA130C969AD /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectricityPriceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5C2F1417526564F84BBAC776805362 /* Mutex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mutex.swift; path = Sources/Mutex.swift; sourceTree = "<group>"; };
+		EF67BF3F0F051C7B5528C82E4EDA225D /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
+		F0175F7F35E49AEFEE92709A24366FC3 /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
+		F22A150A1164F4597249C1CC22A08514 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
+		F4AB1C95073C522D7DE0968A1E13B0BF /* Pods-ElectricityPriceTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElectricityPriceTracker.modulemap"; sourceTree = "<group>"; };
+		FA579472863FEDE3DA66D3DF9BDC6690 /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
+		FF9B4487D00A5B8D08C313CFEFE4C99A /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D3D08B4075EFA07101BDD4AC408646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B73FB7602B288EDDD02A3AED240BBCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4280AEB781DB87DB9B61C75442805F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02490C6B1217232CE5AF70BD47ED86F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDA195C3BC4601953C77635B1615801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FCB2EACA682EE86A3A6BC5DDD0DF85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE33FD5E388879ED4148F5761C49A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EB0B8458D9BB52F73356F7A33AF2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2237344439694C2A26A290D20EEFE724 /* Pods-ElectricityPriceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F4AB1C95073C522D7DE0968A1E13B0BF /* Pods-ElectricityPriceTracker.modulemap */,
+				94B2290157E1736E62C22B16E0A38C19 /* Pods-ElectricityPriceTracker-acknowledgements.markdown */,
+				E5056A6D843F10384A0FECAE19D9B3C4 /* Pods-ElectricityPriceTracker-acknowledgements.plist */,
+				114B0B2932AA124908C8D9558DFD5354 /* Pods-ElectricityPriceTracker-dummy.m */,
+				9FF70744B8664A65337E89D23C3F34E5 /* Pods-ElectricityPriceTracker-frameworks.sh */,
+				5792B77C6C1397AEA2DCF911D345AE55 /* Pods-ElectricityPriceTracker-Info.plist */,
+				2D299C6E05568D2636AC6D93759753A7 /* Pods-ElectricityPriceTracker-umbrella.h */,
+				009E6A8B18BED738FD5BA2F9DC9EC3DC /* Pods-ElectricityPriceTracker.debug.xcconfig */,
+				5029DE5DE798F56AA54F7AE4B422F7F8 /* Pods-ElectricityPriceTracker.release.xcconfig */,
+			);
+			name = "Pods-ElectricityPriceTracker";
+			path = "Target Support Files/Pods-ElectricityPriceTracker";
+			sourceTree = "<group>";
+		};
+		25BD6C997D2B116A7CD74D3524698044 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2237344439694C2A26A290D20EEFE724 /* Pods-ElectricityPriceTracker */,
+				E6F22228D8298C8AE18CD1D52004197E /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests */,
+				C798B6EC54F99FD351153D2BEC4DD163 /* Pods-ElectricityPriceTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EAD0D67C69F4D433F17AF11A10773B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70D6F306DBC24C02C4B09E229646A60B /* SwiftSoup.modulemap */,
+				CE8E1787E34F162938644425A984783B /* SwiftSoup-dummy.m */,
+				94017D5CB9883DC982C0E419BA37AE4A /* SwiftSoup-Info.plist */,
+				6CB9D182BC4A2C8226E6E16DD4386674 /* SwiftSoup-prefix.pch */,
+				98798FF78561B3A9BD8E22E550C5756B /* SwiftSoup-umbrella.h */,
+				6596BB140FCF75E99E47710A7715A5AA /* SwiftSoup.debug.xcconfig */,
+				65CB649102EFB5B13CCDFC092DC398C6 /* SwiftSoup.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSoup";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AE7341EEBE788DDAEF2819F070A104B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BDE9925BACDB33555B0E7157001F20 /* Pods_ElectricityPriceTracker.framework */,
+				72709FDADCC97B74169D31BF6F4A7793 /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */,
+				D790058B488173F88D02AB0305AF3645 /* Pods_ElectricityPriceTrackerTests.framework */,
+				5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDD7961073BF46D6E108205F114931C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B18C8CA577B2B66C775D547E3EEF162B /* SwiftSoup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B18C8CA577B2B66C775D547E3EEF162B /* SwiftSoup */ = {
+			isa = PBXGroup;
+			children = (
+				59095F6928F0D82E8BD6D02B57C3090F /* ArrayExt.swift */,
+				F22A150A1164F4597249C1CC22A08514 /* Attribute.swift */,
+				706C8E3778250063CDCA751FF3C07228 /* Attributes.swift */,
+				6CDAA2F119E411B451C371AA7464F80D /* BinarySearch.swift */,
+				06FC6AF1038AF101A320E7DECB7F186B /* BooleanAttribute.swift */,
+				D278A2E92A26D3084CF9C3D9F9414DB9 /* CharacterExt.swift */,
+				EF67BF3F0F051C7B5528C82E4EDA225D /* CharacterReader.swift */,
+				2A70C59F1E54332A45E8B7AC5EB5B8CB /* Cleaner.swift */,
+				F0175F7F35E49AEFEE92709A24366FC3 /* Collector.swift */,
+				D2452496B7A170236C11B6E7E2A1BB30 /* CombiningEvaluator.swift */,
+				090E558BE17FA6711BA074E4A039BF60 /* Comment.swift */,
+				849BB89AD6DCCE865EE4F357F04A69D5 /* Connection.swift */,
+				A52DCC59F107E1CA97FBCEE8C9693574 /* CssSelector.swift */,
+				C6CB9B1A473AE0F2C89CB365966D2933 /* DataNode.swift */,
+				0568D16141AD049634899CAB31AC17E8 /* DataUtil.swift */,
+				D9A41EE24BE59C634DF497CC02A8F491 /* Document.swift */,
+				7B799D52A416EBC4384E78CD4BDC810C /* DocumentType.swift */,
+				EAFDE39FB2915EABE537D4F9D3628323 /* Element.swift */,
+				4573351C38C1202D81555B39803E1DB0 /* Elements.swift */,
+				FF9B4487D00A5B8D08C313CFEFE4C99A /* Entities.swift */,
+				336488711F057260A64D1A39E12D5CCE /* Evaluator.swift */,
+				14FE01D50DCC6942CEEEDC792D40893F /* Exception.swift */,
+				37EE880A2E34AEEF22B01A78AA2C5D7C /* FormElement.swift */,
+				0F5558DDAE371319F5E962F8BEB31DF6 /* HtmlTreeBuilder.swift */,
+				6D6E727EE6A6132C8FA1A40EAD3AC309 /* HtmlTreeBuilderState.swift */,
+				4DFF68BBCB4009998608BFE97E097BE6 /* HttpStatusException.swift */,
+				EF5C2F1417526564F84BBAC776805362 /* Mutex.swift */,
+				17E2D4DBC5D8908346F1EA900D71FBD6 /* Node.swift */,
+				68F804C0E6B6D64A423A40C49E2D97D6 /* NodeTraversor.swift */,
+				DA3BB69FAB39859478B66956A5C507C2 /* NodeVisitor.swift */,
+				BA455C4F05048B64ACA785C8534171C9 /* OrderedSet.swift */,
+				8495F1B70C1EB2A823B02F8E0809DE33 /* ParseError.swift */,
+				A6A208D5CF6D4B3074D53AB685483086 /* ParseErrorList.swift */,
+				17910EE401735600A29817322559C7A5 /* Parser.swift */,
+				BECC9CD99C893592332E533C64E58EFB /* ParseSettings.swift */,
+				ADC017285054CEF79EE35BA0855917D8 /* Pattern.swift */,
+				007CC70F2BEBC6096D343FD0C0ED481F /* QueryParser.swift */,
+				A66DE2FB455909CAABC8FA3D0753B3F5 /* SerializationException.swift */,
+				2BF60D4E06EC2825C6D240C299FA64B6 /* SimpleDictionary.swift */,
+				2F77945861C754401AF3C615A0D34D9B /* StreamReader.swift */,
+				1BAFC88E5CF4380C226F72D4ABD7BBF9 /* String.swift */,
+				E1C8CD8B03DF44278119FC6D213CE09C /* StringBuilder.swift */,
+				A6D377A3634DB286D61234431EAD251A /* StringUtil.swift */,
+				B623D4D31F2BB36B9282ACCB004E128A /* StructuralEvaluator.swift */,
+				A9F3863FE4796DF179CD766D40A6339B /* SwiftSoup.swift */,
+				04EE1C07982BD3F29F7D5B886EAC2538 /* Tag.swift */,
+				4CE7DB187804A04AFB9F3A954C88DF32 /* TextNode.swift */,
+				5B231465575BD3ADBCA5B2E8149641AE /* Token.swift */,
+				CF441248AE1957F7F69C46C49728CA4F /* Tokeniser.swift */,
+				9F854BAB0C4C60662F48CB188AE8C399 /* TokeniserState.swift */,
+				21C15490032EF5AC9284135D62D672BE /* TokenQueue.swift */,
+				01308D6D0537A26D7AD532AEDDA146C1 /* TreeBuilder.swift */,
+				A6CB64C7E452809B60ED589ABB872D65 /* UnfairLock.swift */,
+				571A2DF905F09EFE58342F788D69ED62 /* UnicodeScalar.swift */,
+				FA579472863FEDE3DA66D3DF9BDC6690 /* Validate.swift */,
+				B727A835A3709630D70AED88E1A22A0A /* Whitelist.swift */,
+				5FBB84EDD1F75DB7A8A1727807EA2297 /* XmlDeclaration.swift */,
+				1F3E0BA9DCEEFAF7C0371600CC84A842 /* XmlTreeBuilder.swift */,
+				4EAD0D67C69F4D433F17AF11A10773B5 /* Support Files */,
+			);
+			name = SwiftSoup;
+			path = SwiftSoup;
+			sourceTree = "<group>";
+		};
+		C798B6EC54F99FD351153D2BEC4DD163 /* Pods-ElectricityPriceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D78F881E6D388BAF10F2AEB83BE4D10B /* Pods-ElectricityPriceTrackerTests.modulemap */,
+				09B730431AE4E2FA8E06911CE12E6350 /* Pods-ElectricityPriceTrackerTests-acknowledgements.markdown */,
+				9208E58F6D9AB89CC7AE150CB821E58F /* Pods-ElectricityPriceTrackerTests-acknowledgements.plist */,
+				6DAE0651C3CB69600CF35B7F02F7C981 /* Pods-ElectricityPriceTrackerTests-dummy.m */,
+				79D8C8269318DDB40CB68B51DD5D456B /* Pods-ElectricityPriceTrackerTests-Info.plist */,
+				CD797B1E34C546539D67454409E05C7D /* Pods-ElectricityPriceTrackerTests-umbrella.h */,
+				EC038EAAED64301196E41CA130C969AD /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */,
+				995A4A48A2FE050FDD0C464EA5F617FC /* Pods-ElectricityPriceTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-ElectricityPriceTrackerTests";
+			path = "Target Support Files/Pods-ElectricityPriceTrackerTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AFDD7961073BF46D6E108205F114931C /* Pods */,
+				AE7341EEBE788DDAEF2819F070A104B0 /* Products */,
+				25BD6C997D2B116A7CD74D3524698044 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F22228D8298C8AE18CD1D52004197E /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181B80C4CD959E12C0933555CC30F828 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.modulemap */,
+				D6A80730347AE082EBBEB7743F86651E /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.markdown */,
+				AF780CC9FEB9669D66CCB7304BA02BD4 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-acknowledgements.plist */,
+				CE1FAD9C9B226DE824B6EFF250B7BD74 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m */,
+				5DE0B74AFD419A9898B7C81B2E7E49DB /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks.sh */,
+				D9285C2F4DA939B996D8B2F456356F2C /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-Info.plist */,
+				4F00DEC1BC8B4D5A80D63868C1713D85 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h */,
+				491E7C23EDC9934A924921B1A66D597C /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */,
+				0997EAE7562E54E6B4379F3E7B6B5326 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests";
+			path = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		225488586D3A6A5955B01484EE114885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE2D71733C66B8EA171CF71F274AD7B /* SwiftSoup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BCC668B205CB2D6E2D8718E121BBA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F647969B43100F402A9C540D771F21F9 /* Pods-ElectricityPriceTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28635AD9A7AEF639D8867EF823123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BEBCB4A624AE78B192B653B0F6FDD /* Pods-ElectricityPriceTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7C89C89398403100D28566F3470F11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB08DCD86C71121743627986E3EA930 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A8844BEF4765C9B8F202D66E52A34D6 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558627B802DDCC15444E901CCB83F8DE /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests" */;
+			buildPhases = (
+				CB7C89C89398403100D28566F3470F11 /* Headers */,
+				66294E2700EF63ECAA88AB1FFEBB28AA /* Sources */,
+				CEE33FD5E388879ED4148F5761C49A64 /* Frameworks */,
+				2D4DFC8E9BACAF5DC972DA4E0B8022A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47FA777BD0240312FD3D4A8F48C7385 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests";
+			productName = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests";
+			productReference = 72709FDADCC97B74169D31BF6F4A7793 /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2C79762B3DC85490E767CAAEF134E72 /* Pods-ElectricityPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2120809732665C07F0A792E373BB4EE /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTrackerTests" */;
+			buildPhases = (
+				4EB28635AD9A7AEF639D8867EF823123 /* Headers */,
+				C9057A7F99512B8C636C5411DFB2996A /* Sources */,
+				4280AEB781DB87DB9B61C75442805F47 /* Frameworks */,
+				8734EADC4CF29664E3A0F8DB8D613B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594A123C4EB637B8F6DD739A6E1F94D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElectricityPriceTrackerTests";
+			productName = "Pods-ElectricityPriceTrackerTests";
+			productReference = D790058B488173F88D02AB0305AF3645 /* Pods_ElectricityPriceTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF3A282CE0F7CB17988AAF245D0356B1 /* Pods-ElectricityPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825DBC8D60AAC8C43B9725B6685470A6 /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTracker" */;
+			buildPhases = (
+				40BCC668B205CB2D6E2D8718E121BBA6 /* Headers */,
+				C792364C30CA8FF1DB121EE9F8A4A49E /* Sources */,
+				04D3D08B4075EFA07101BDD4AC408646 /* Frameworks */,
+				CE7774B92A082FF065C995CEAA8C1942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B231371873318DE624E4FB4CD651BC /* PBXTargetDependency */,
+			);
+			name = "Pods-ElectricityPriceTracker";
+			productName = "Pods-ElectricityPriceTracker";
+			productReference = 15BDE9925BACDB33555B0E7157001F20 /* Pods_ElectricityPriceTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89F48405DFAFEF441B4E758A15117A5 /* SwiftSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A566990FE8B7E88C80B61FB25492E3C3 /* Build configuration list for PBXNativeTarget "SwiftSoup" */;
+			buildPhases = (
+				225488586D3A6A5955B01484EE114885 /* Headers */,
+				335BFAEFA35EFA6AB1BC0E7F8388137C /* Sources */,
+				7FDA195C3BC4601953C77635B1615801 /* Frameworks */,
+				DD7FCE9A7A7D8FE03F13D25E1D02A69E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoup;
+			productName = SwiftSoup;
+			productReference = 5F38EF8DCE7D46A354D1D1BBAC952903 /* SwiftSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE7341EEBE788DDAEF2819F070A104B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3A282CE0F7CB17988AAF245D0356B1 /* Pods-ElectricityPriceTracker */,
+				4A8844BEF4765C9B8F202D66E52A34D6 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests */,
+				A2C79762B3DC85490E767CAAEF134E72 /* Pods-ElectricityPriceTrackerTests */,
+				D89F48405DFAFEF441B4E758A15117A5 /* SwiftSoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4DFC8E9BACAF5DC972DA4E0B8022A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8734EADC4CF29664E3A0F8DB8D613B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7774B92A082FF065C995CEAA8C1942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FCE9A7A7D8FE03F13D25E1D02A69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335BFAEFA35EFA6AB1BC0E7F8388137C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CF6958A70123BAC1F5D1979D3FE794 /* ArrayExt.swift in Sources */,
+				074190E81EE519DA0006CFC3820AA73C /* Attribute.swift in Sources */,
+				1ABE302122A48FFA4B20919BEF7967D9 /* Attributes.swift in Sources */,
+				24CA7879765EFEE439A720E92146418D /* BinarySearch.swift in Sources */,
+				F6E0D10FF9A763D38DD1C00323A248E4 /* BooleanAttribute.swift in Sources */,
+				9602459CA9CECAF90A5F944D275D3147 /* CharacterExt.swift in Sources */,
+				80CC1643AFB8E97E373850864CF6D737 /* CharacterReader.swift in Sources */,
+				6C35C32F5CE2C952C5EC6A3820077C4C /* Cleaner.swift in Sources */,
+				85BE075A8DCF642107DC4A3D26BDF7CE /* Collector.swift in Sources */,
+				DE01DF328221455AB41A477CD641BFA0 /* CombiningEvaluator.swift in Sources */,
+				89EC936DDD9BED263C765A5743FD8E7A /* Comment.swift in Sources */,
+				4D77839745AA966C4749C4D35702CBD1 /* Connection.swift in Sources */,
+				52867E6C73ACC79D9978F81B6F276F39 /* CssSelector.swift in Sources */,
+				C7EF3E2CC6E5389739801898FA80D3BD /* DataNode.swift in Sources */,
+				96C2CD5999BA4FDE142D7B2C05926FD1 /* DataUtil.swift in Sources */,
+				90E147F175C6F91E818209973267D762 /* Document.swift in Sources */,
+				CF584413311627386E954087BD5A1F91 /* DocumentType.swift in Sources */,
+				DAE52A509408A27DCEE44A223077E030 /* Element.swift in Sources */,
+				376F847BA243469C21DAE82AA3E0C5F5 /* Elements.swift in Sources */,
+				E2FC8E0A6DFF9E0B3B217B198601135F /* Entities.swift in Sources */,
+				21E334A0B5421E7EAC22C99662E71AD0 /* Evaluator.swift in Sources */,
+				D57CA49EF01E90DA17EB4875F31DBE1F /* Exception.swift in Sources */,
+				CB0ED2A1B0D64727700C570E5FC14BA2 /* FormElement.swift in Sources */,
+				9CD6A20DAAC782E6E212B91CA3CA6E04 /* HtmlTreeBuilder.swift in Sources */,
+				95072417FF5C5037B9ECBC3C98608A08 /* HtmlTreeBuilderState.swift in Sources */,
+				EF2C9DD140B07E35F2D17C6964AF98D1 /* HttpStatusException.swift in Sources */,
+				9C44B1CE0CA33C9E0E6430EA80EC2463 /* Mutex.swift in Sources */,
+				618084A12999CD21681FD5B156AF9D6A /* Node.swift in Sources */,
+				E9086BC598FD73F645AFE4F544F8F437 /* NodeTraversor.swift in Sources */,
+				C964F1E77F6BC321E3D14E80DE4579A3 /* NodeVisitor.swift in Sources */,
+				9F1BA85D819A6EEECC92694A01CFD003 /* OrderedSet.swift in Sources */,
+				13116394B2938BAFFFB814C37DDF5478 /* ParseError.swift in Sources */,
+				3A6E525BD14E01728384E567F20FDDAC /* ParseErrorList.swift in Sources */,
+				F5C1402B8168B8DC77DC451A619C9EB3 /* Parser.swift in Sources */,
+				AE359B5213A2132193874865FC504BB7 /* ParseSettings.swift in Sources */,
+				A7F478679173D8BFBEB9C48A79E39361 /* Pattern.swift in Sources */,
+				C248FC0E04BA0ECAFAED628A6B623C06 /* QueryParser.swift in Sources */,
+				7AF5D841764CC3FC3151F80731A8E9D6 /* SerializationException.swift in Sources */,
+				14D2F0801445037DD90EBECE275CCAFC /* SimpleDictionary.swift in Sources */,
+				AF4C15580ECBF0F36259131B73AD9901 /* StreamReader.swift in Sources */,
+				EBF0B968E932B70626B9446A33AB18F4 /* String.swift in Sources */,
+				A39ECFB39DACC7F1614A2802E02DD830 /* StringBuilder.swift in Sources */,
+				6CDA2913A22C297AF851ABC4C09EEE6E /* StringUtil.swift in Sources */,
+				1C3BE9C4DE3BAD92FFD27672E3C1E5E0 /* StructuralEvaluator.swift in Sources */,
+				F0872B6D1985D4185F221B5961CC7B21 /* SwiftSoup.swift in Sources */,
+				5D78071CD5656D271045206782E74DD4 /* SwiftSoup-dummy.m in Sources */,
+				CA9888C9D2C6E0EFD0F87A52B0F4684B /* Tag.swift in Sources */,
+				7C36C38F4C43E214F2832255B4FCEE29 /* TextNode.swift in Sources */,
+				A37C92BC9F91B8DCDB303FA1C18E5DFF /* Token.swift in Sources */,
+				0164874C787A4DFD9A2DC151876A7302 /* Tokeniser.swift in Sources */,
+				5F4ED55CC09EB46D904E031933DBF367 /* TokeniserState.swift in Sources */,
+				45673AE92514BF69AF9412E0DCBE15B0 /* TokenQueue.swift in Sources */,
+				45FC87D506E3650449FC12F92F8B0E06 /* TreeBuilder.swift in Sources */,
+				8E197D4AD235B14B121B0A5C1E2CDD7C /* UnfairLock.swift in Sources */,
+				EEE753064CCDB1DF83FBC4C462A12915 /* UnicodeScalar.swift in Sources */,
+				06E6EC35CF1497EE85D0071989082B75 /* Validate.swift in Sources */,
+				6B5C8AD17802DD5FF96D195E3ECC6F1E /* Whitelist.swift in Sources */,
+				5DF7BE8BDE06F5F8A9E8EAA6C417E5F2 /* XmlDeclaration.swift in Sources */,
+				B0162DBEF105F9758797D7A02CF41135 /* XmlTreeBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66294E2700EF63ECAA88AB1FFEBB28AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4027E3DE0D000700F7F66955D45984D8 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C792364C30CA8FF1DB121EE9F8A4A49E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0342BF206E97814ACA2712C131F4CFD7 /* Pods-ElectricityPriceTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9057A7F99512B8C636C5411DFB2996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EED6C0B7AA4F4798D1B715DEEE9A3A1 /* Pods-ElectricityPriceTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B231371873318DE624E4FB4CD651BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = D89F48405DFAFEF441B4E758A15117A5 /* SwiftSoup */;
+			targetProxy = A571C4A8E350AC8BD3E0A6DA6571E024 /* PBXContainerItemProxy */;
+		};
+		594A123C4EB637B8F6DD739A6E1F94D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ElectricityPriceTracker";
+			target = BF3A282CE0F7CB17988AAF245D0356B1 /* Pods-ElectricityPriceTracker */;
+			targetProxy = EE6ED5989A262334FF7D4FEC444C75CA /* PBXContainerItemProxy */;
+		};
+		D47FA777BD0240312FD3D4A8F48C7385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = D89F48405DFAFEF441B4E758A15117A5 /* SwiftSoup */;
+			targetProxy = 177F8680BE9FCC79F61BD4317C58030B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C93899EA2C2FDF5BDF6BDD85EA0B354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009E6A8B18BED738FD5BA2F9DC9EC3DC /* Pods-ElectricityPriceTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6660D02C26235E942A47FA9FCB113187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0997EAE7562E54E6B4379F3E7B6B5326 /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74CB510D1B1BD92A8CE41AF9FB52C8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6596BB140FCF75E99E47710A7715A5AA /* SwiftSoup.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/SwiftSoup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB383DB51852600B374E5F7C7A0A3B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995A4A48A2FE050FDD0C464EA5F617FC /* Pods-ElectricityPriceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE0C1BB636E53428E6545D3F16451544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC038EAAED64301196E41CA130C969AD /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC9614EB6F7882BC16A904D947710675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491E7C23EDC9934A924921B1A66D597C /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9EB0D2F7BAF6536425AA008A26303B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CB649102EFB5B13CCDFC092DC398C6 /* SwiftSoup.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/SwiftSoup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB196C6BBDCE1AC3412DA0A3F0971731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5029DE5DE798F56AA54F7AE4B422F7F8 /* Pods-ElectricityPriceTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558627B802DDCC15444E901CCB83F8DE /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9614EB6F7882BC16A904D947710675 /* Debug */,
+				6660D02C26235E942A47FA9FCB113187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825DBC8D60AAC8C43B9725B6685470A6 /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C93899EA2C2FDF5BDF6BDD85EA0B354 /* Debug */,
+				FB196C6BBDCE1AC3412DA0A3F0971731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A566990FE8B7E88C80B61FB25492E3C3 /* Build configuration list for PBXNativeTarget "SwiftSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CB510D1B1BD92A8CE41AF9FB52C8C8 /* Debug */,
+				E9EB0D2F7BAF6536425AA008A26303B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2120809732665C07F0A792E373BB4EE /* Build configuration list for PBXNativeTarget "Pods-ElectricityPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0C1BB636E53428E6545D3F16451544 /* Debug */,
+				AB383DB51852600B374E5F7C7A0A3B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

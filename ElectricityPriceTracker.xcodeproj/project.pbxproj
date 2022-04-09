@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B42BAAD9D6663450B77D931 /* Pods_ElectricityPriceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C8C4D3310B8BFF2D40611A /* Pods_ElectricityPriceTracker.framework */; };
+		529202342801AADA00133D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529202332801AADA00133D9D /* AppDelegate.swift */; };
+		529202362801AADA00133D9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529202352801AADA00133D9D /* SceneDelegate.swift */; };
+		529202382801AADA00133D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529202372801AADA00133D9D /* ViewController.swift */; };
+		5292023B2801AADA00133D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529202392801AADA00133D9D /* Main.storyboard */; };
+		5292023D2801AADB00133D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5292023C2801AADB00133D9D /* Assets.xcassets */; };
+		529202402801AADB00133D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5292023E2801AADB00133D9D /* LaunchScreen.storyboard */; };
+		5292024B2801AADC00133D9D /* ElectricityPriceTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292024A2801AADC00133D9D /* ElectricityPriceTrackerTests.swift */; };
+		529202552801AADC00133D9D /* ElectricityPriceTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529202542801AADC00133D9D /* ElectricityPriceTrackerUITests.swift */; };
+		529202572801AADC00133D9D /* ElectricityPriceTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529202562801AADC00133D9D /* ElectricityPriceTrackerUITestsLaunchTests.swift */; };
+		52C819C42801C3CE0015A8BF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C819C32801C3CE0015A8BF /* CollectionViewCell.swift */; };
+		A71B99907FD60482CC600578 /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A5AED17ED8A736A56954E /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */; };
+		C32B28AE62AF1EA069A6F5DE /* Pods_ElectricityPriceTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3058186505B3F0BB7D3EFEC /* Pods_ElectricityPriceTrackerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529202472801AADC00133D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529202282801AADA00133D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5292022F2801AADA00133D9D;
+			remoteInfo = ElectricityPriceTracker;
+		};
+		529202512801AADC00133D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529202282801AADA00133D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5292022F2801AADA00133D9D;
+			remoteInfo = ElectricityPriceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0667AD620ED93520E463C2B4 /* Pods-ElectricityPriceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTracker.release.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		3394C38DABBDB6E1CAE709FB /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		347618ECFEDCA39327F1502B /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0A5AED17ED8A736A56954E /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529202302801AADA00133D9D /* ElectricityPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricityPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529202332801AADA00133D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529202352801AADA00133D9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		529202372801AADA00133D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5292023A2801AADA00133D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5292023C2801AADB00133D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5292023F2801AADB00133D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529202412801AADB00133D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529202462801AADC00133D9D /* ElectricityPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5292024A2801AADC00133D9D /* ElectricityPriceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityPriceTrackerTests.swift; sourceTree = "<group>"; };
+		529202502801AADC00133D9D /* ElectricityPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		529202542801AADC00133D9D /* ElectricityPriceTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityPriceTrackerUITests.swift; sourceTree = "<group>"; };
+		529202562801AADC00133D9D /* ElectricityPriceTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityPriceTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52C819C32801C3CE0015A8BF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5FC224248A99B67D225D66C3 /* Pods-ElectricityPriceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTrackerTests/Pods-ElectricityPriceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0C8C4D3310B8BFF2D40611A /* Pods_ElectricityPriceTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectricityPriceTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3058186505B3F0BB7D3EFEC /* Pods_ElectricityPriceTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectricityPriceTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B36B5EFA49B95D23EC087B /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9BEB4200D6B766F3EC784CC /* Pods-ElectricityPriceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricityPriceTracker.debug.xcconfig"; path = "Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5292022D2801AADA00133D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B42BAAD9D6663450B77D931 /* Pods_ElectricityPriceTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529202432801AADC00133D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B28AE62AF1EA069A6F5DE /* Pods_ElectricityPriceTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5292024D2801AADC00133D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71B99907FD60482CC600578 /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507B0CE994A3DEC88C01E798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0C8C4D3310B8BFF2D40611A /* Pods_ElectricityPriceTracker.framework */,
+				4F0A5AED17ED8A736A56954E /* Pods_ElectricityPriceTracker_ElectricityPriceTrackerUITests.framework */,
+				E3058186505B3F0BB7D3EFEC /* Pods_ElectricityPriceTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		529202272801AADA00133D9D = {
+			isa = PBXGroup;
+			children = (
+				529202322801AADA00133D9D /* ElectricityPriceTracker */,
+				529202492801AADC00133D9D /* ElectricityPriceTrackerTests */,
+				529202532801AADC00133D9D /* ElectricityPriceTrackerUITests */,
+				529202312801AADA00133D9D /* Products */,
+				7668D85D46226D37B648A94F /* Pods */,
+				507B0CE994A3DEC88C01E798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529202312801AADA00133D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529202302801AADA00133D9D /* ElectricityPriceTracker.app */,
+				529202462801AADC00133D9D /* ElectricityPriceTrackerTests.xctest */,
+				529202502801AADC00133D9D /* ElectricityPriceTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529202322801AADA00133D9D /* ElectricityPriceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				529202332801AADA00133D9D /* AppDelegate.swift */,
+				529202352801AADA00133D9D /* SceneDelegate.swift */,
+				529202372801AADA00133D9D /* ViewController.swift */,
+				52C819C32801C3CE0015A8BF /* CollectionViewCell.swift */,
+				529202392801AADA00133D9D /* Main.storyboard */,
+				5292023C2801AADB00133D9D /* Assets.xcassets */,
+				5292023E2801AADB00133D9D /* LaunchScreen.storyboard */,
+				529202412801AADB00133D9D /* Info.plist */,
+			);
+			path = ElectricityPriceTracker;
+			sourceTree = "<group>";
+		};
+		529202492801AADC00133D9D /* ElectricityPriceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5292024A2801AADC00133D9D /* ElectricityPriceTrackerTests.swift */,
+			);
+			path = ElectricityPriceTrackerTests;
+			sourceTree = "<group>";
+		};
+		529202532801AADC00133D9D /* ElectricityPriceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				529202542801AADC00133D9D /* ElectricityPriceTrackerUITests.swift */,
+				529202562801AADC00133D9D /* ElectricityPriceTrackerUITestsLaunchTests.swift */,
+			);
+			path = ElectricityPriceTrackerUITests;
+			sourceTree = "<group>";
+		};
+		7668D85D46226D37B648A94F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9BEB4200D6B766F3EC784CC /* Pods-ElectricityPriceTracker.debug.xcconfig */,
+				0667AD620ED93520E463C2B4 /* Pods-ElectricityPriceTracker.release.xcconfig */,
+				E3B36B5EFA49B95D23EC087B /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */,
+				3394C38DABBDB6E1CAE709FB /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */,
+				347618ECFEDCA39327F1502B /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */,
+				5FC224248A99B67D225D66C3 /* Pods-ElectricityPriceTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5292022F2801AADA00133D9D /* ElectricityPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5292025A2801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTracker" */;
+			buildPhases = (
+				5DE1F19967A6DD73E3BA3082 /* [CP] Check Pods Manifest.lock */,
+				5292022C2801AADA00133D9D /* Sources */,
+				5292022D2801AADA00133D9D /* Frameworks */,
+				5292022E2801AADA00133D9D /* Resources */,
+				94EEEB492AB93C9F514A27AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricityPriceTracker;
+			productName = ElectricityPriceTracker;
+			productReference = 529202302801AADA00133D9D /* ElectricityPriceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		529202452801AADC00133D9D /* ElectricityPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5292025D2801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTrackerTests" */;
+			buildPhases = (
+				6222A0E31CFF44EC5F9AB80C /* [CP] Check Pods Manifest.lock */,
+				529202422801AADC00133D9D /* Sources */,
+				529202432801AADC00133D9D /* Frameworks */,
+				529202442801AADC00133D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529202482801AADC00133D9D /* PBXTargetDependency */,
+			);
+			name = ElectricityPriceTrackerTests;
+			productName = ElectricityPriceTrackerTests;
+			productReference = 529202462801AADC00133D9D /* ElectricityPriceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5292024F2801AADC00133D9D /* ElectricityPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529202602801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTrackerUITests" */;
+			buildPhases = (
+				A690060EE40C6DB732FCA37E /* [CP] Check Pods Manifest.lock */,
+				5292024C2801AADC00133D9D /* Sources */,
+				5292024D2801AADC00133D9D /* Frameworks */,
+				5292024E2801AADC00133D9D /* Resources */,
+				11C1DC7E4F5E35FDEC964D84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529202522801AADC00133D9D /* PBXTargetDependency */,
+			);
+			name = ElectricityPriceTrackerUITests;
+			productName = ElectricityPriceTrackerUITests;
+			productReference = 529202502801AADC00133D9D /* ElectricityPriceTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529202282801AADA00133D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5292022F2801AADA00133D9D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					529202452801AADC00133D9D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5292022F2801AADA00133D9D;
+					};
+					5292024F2801AADC00133D9D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5292022F2801AADA00133D9D;
+					};
+				};
+			};
+			buildConfigurationList = 5292022B2801AADA00133D9D /* Build configuration list for PBXProject "ElectricityPriceTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529202272801AADA00133D9D;
+			productRefGroup = 529202312801AADA00133D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5292022F2801AADA00133D9D /* ElectricityPriceTracker */,
+				529202452801AADC00133D9D /* ElectricityPriceTrackerTests */,
+				5292024F2801AADC00133D9D /* ElectricityPriceTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5292022E2801AADA00133D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529202402801AADB00133D9D /* LaunchScreen.storyboard in Resources */,
+				5292023D2801AADB00133D9D /* Assets.xcassets in Resources */,
+				5292023B2801AADA00133D9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529202442801AADC00133D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5292024E2801AADC00133D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C1DC7E4F5E35FDEC964D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE1F19967A6DD73E3BA3082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricityPriceTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6222A0E31CFF44EC5F9AB80C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricityPriceTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EEEB492AB93C9F514A27AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectricityPriceTracker/Pods-ElectricityPriceTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A690060EE40C6DB732FCA37E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5292022C2801AADA00133D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529202382801AADA00133D9D /* ViewController.swift in Sources */,
+				529202342801AADA00133D9D /* AppDelegate.swift in Sources */,
+				52C819C42801C3CE0015A8BF /* CollectionViewCell.swift in Sources */,
+				529202362801AADA00133D9D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529202422801AADC00133D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5292024B2801AADC00133D9D /* ElectricityPriceTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5292024C2801AADC00133D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529202552801AADC00133D9D /* ElectricityPriceTrackerUITests.swift in Sources */,
+				529202572801AADC00133D9D /* ElectricityPriceTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529202482801AADC00133D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5292022F2801AADA00133D9D /* ElectricityPriceTracker */;
+			targetProxy = 529202472801AADC00133D9D /* PBXContainerItemProxy */;
+		};
+		529202522801AADC00133D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5292022F2801AADA00133D9D /* ElectricityPriceTracker */;
+			targetProxy = 529202512801AADC00133D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		529202392801AADA00133D9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5292023A2801AADA00133D9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5292023E2801AADB00133D9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5292023F2801AADB00133D9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529202582801AADC00133D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529202592801AADC00133D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5292025B2801AADC00133D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BEB4200D6B766F3EC784CC /* Pods-ElectricityPriceTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElectricityPriceTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5292025C2801AADC00133D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0667AD620ED93520E463C2B4 /* Pods-ElectricityPriceTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElectricityPriceTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5292025E2801AADC00133D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347618ECFEDCA39327F1502B /* Pods-ElectricityPriceTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityPriceTracker.app/ElectricityPriceTracker";
+			};
+			name = Debug;
+		};
+		5292025F2801AADC00133D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC224248A99B67D225D66C3 /* Pods-ElectricityPriceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityPriceTracker.app/ElectricityPriceTracker";
+			};
+			name = Release;
+		};
+		529202612801AADC00133D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B36B5EFA49B95D23EC087B /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectricityPriceTracker;
+			};
+			name = Debug;
+		};
+		529202622801AADC00133D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3394C38DABBDB6E1CAE709FB /* Pods-ElectricityPriceTracker-ElectricityPriceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.finalytica.ElectricityPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectricityPriceTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5292022B2801AADA00133D9D /* Build configuration list for PBXProject "ElectricityPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529202582801AADC00133D9D /* Debug */,
+				529202592801AADC00133D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5292025A2801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5292025B2801AADC00133D9D /* Debug */,
+				5292025C2801AADC00133D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5292025D2801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5292025E2801AADC00133D9D /* Debug */,
+				5292025F2801AADC00133D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529202602801AADC00133D9D /* Build configuration list for PBXNativeTarget "ElectricityPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529202612801AADC00133D9D /* Debug */,
+				529202622801AADC00133D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529202282801AADA00133D9D /* Project object */;
+}
