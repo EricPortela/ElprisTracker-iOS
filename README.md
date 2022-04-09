@@ -1,5 +1,5 @@
 # ElprisTracker
-En iOS applikation som skrapar dagens spotpriser för el från elen.se. Utveckling pågår och applikationen är därmed inte färdigställd. Applikationen ska tillhandahålla ett enkelt grafiskt gränssnitt för att överskådligt kunna anpassa sin elkonsumtion och förbruka som mest när timpriset är som lägst, givetvis förutsatt att man har ett timprisavtal.
+En iOS applikation som skrapar dagens spotpriser för el från elen.nu. Utveckling pågår och applikationen är därmed inte färdigställd. Applikationen ska tillhandahålla ett enkelt grafiskt gränssnitt för att överskådligt kunna anpassa sin elkonsumtion och förbruka som mest när timpriset är som lägst, givetvis förutsatt att man har ett timprisavtal.
 
 
 To do:
