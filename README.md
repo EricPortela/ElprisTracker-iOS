@@ -6,7 +6,7 @@ To do:
 
 --> Grafisk representation av datan
 
---> Tidsbaserad avvisering då tipriset är som lägst
+--> Tidsbaserad avvisering då timpriset är som lägst
 
 --> Jämförelser (med motsvarande dag för en vecka sedan), nyckeltal, etc.
 
