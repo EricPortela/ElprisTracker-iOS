@@ -6,6 +6,7 @@ target 'ElectricityPriceTracker' do
   use_frameworks!
 
   pod 'SwiftSoup'
+  pod 'Charts'
 
   target 'ElectricityPriceTrackerTests' do
     inherit! :search_paths

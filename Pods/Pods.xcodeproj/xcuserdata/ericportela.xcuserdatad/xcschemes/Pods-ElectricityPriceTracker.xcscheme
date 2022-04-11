@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BF3A282CE0F7CB17988AAF245D0356B1"
-               BuildableName = "Pods_ElectricityPriceTracker.framework"
+               BuildableName = "Pods-ElectricityPriceTracker.framework"
                BlueprintName = "Pods-ElectricityPriceTracker"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
