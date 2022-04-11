@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         
         collectionView.dataSource = self
         collectionView.delegate = self
+        collectionView.register(CollectionViewDashboard.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "dashboardHeader")
         
         topDashboard.layer.borderWidth = 2
         topDashboard.layer.cornerRadius = 10
@@ -131,7 +132,8 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return prices.count
@@ -159,7 +161,32 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         return cell!
     }
     
-   
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let width: CGFloat = (CGFloat(UIScreen.main.bounds.size.width)) - 40
+        let height: CGFloat = 115
+        
+        return CGSize(width: width, height: height)
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "dashboardHeader", for: indexPath) as? CollectionViewDashboard
+        
+        return header!
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        let width: CGFloat = UIScreen.main.bounds.size.width - 40
+        
+        let height: CGFloat = 200
+        
+        return CGSize(width: width, height: height)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 40
+    }
     
     
 }
