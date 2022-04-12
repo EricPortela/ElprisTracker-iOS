@@ -42,13 +42,31 @@ class ViewController: UIViewController {
     }
     
     private func setDayAndDate() -> Void {
-        let dateFormatter = DateFormatter()
-        let date = Date() //sets constant date to current date
-        dateFormatter.dateFormat = "EEEE" //Format that only gets the day
+        let dateFormatter1 = DateFormatter()
+        let dateFormatter2 = DateFormatter()
         
-        let weekDay: String = dateFormatter.string(from: date)
+        let currentDate = Date() //sets constant date to current date
+        dateFormatter1.dateFormat = "EEEE" //Format that only gets the day
+        dateFormatter2.dateFormat = "d MMMM yyyy"
         
-        dayDateLbl.text = (weekDay)
+        let weekDay: String = dateFormatter1.string(from: currentDate) + "\n"
+        let date: String = dateFormatter2.string(from: currentDate)
+                
+        let firstFont = UIFont(name: "HelveticaNeue-Bold", size: 30)
+        let secondFont = UIFont(name: "HelveticaNeue", size: 18)
+                
+        let firstAttributes = [NSAttributedString.Key.font: firstFont, NSAttributedString.Key.foregroundColor: UIColor.white]
+        let secondAttributes = [NSAttributedString.Key.font: secondFont, NSAttributedString.Key.foregroundColor: UIColor.gray]
+
+        let firstAttributedString = NSMutableAttributedString(string: weekDay, attributes: firstAttributes)
+        let secondAttributedString = NSMutableAttributedString(string: date, attributes: secondAttributes)
+        
+        firstAttributedString.append(secondAttributedString)
+        
+        dayDateLbl.attributedText = firstAttributedString
+        
+        
+        
     }
     
     private func getCheapest(data: (Array<Date>, Array<Double>)) -> (Date, Double) {
@@ -180,7 +198,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let width: CGFloat = (CGFloat(UIScreen.main.bounds.size.width))
+        let width: CGFloat = (CGFloat(UIScreen.main.bounds.size.width)) - 40
         let height: CGFloat = 115
         
         return CGSize(width: width, height: height)
@@ -212,7 +230,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 20, left: 0, bottom: 20, right: 20)
+        return UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
     }
     
 }

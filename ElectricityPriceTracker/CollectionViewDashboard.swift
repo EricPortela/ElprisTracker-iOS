@@ -16,7 +16,14 @@ class CollectionViewDashboard: UICollectionReusableView {
     }
     
     let cellWidth = Int(UIScreen.main.bounds.size.width - 40)
-    let cellHeight = 80
+    let cellHeight = 200
+    
+    let mainView: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor(red: 0.43, green: 0.62, blue: 0.77, alpha: 1.00)
+        view.layer.cornerRadius = 10
+        return view
+    }()
     
     let dashboardLbl: UILabel = {
         let lbl = UILabel()
@@ -86,20 +93,15 @@ class CollectionViewDashboard: UICollectionReusableView {
             
             priceLbl.attributedText = firstAttributedString
         }
-        
-        
     }
     
     private func setUpView() -> Void {
-        self.layer.backgroundColor = UIColor(red: 0.43, green: 0.62, blue: 0.77, alpha: 1.00).cgColor
-        self.layer.cornerRadius = 10
-        
         
         let lblWidth: Int = Int(UIScreen.main.bounds.size.width - 60)
         let lblHeight = 25
         
         dashboardLbl.frame = CGRect(x: 20, y: 10, width: lblWidth, height: lblHeight)
-        self.addSubview(dashboardLbl)
+        mainView.addSubview(dashboardLbl)
         
         //Pie chart
         let pieX = CGFloat(cellWidth-90-20)
@@ -108,7 +110,7 @@ class CollectionViewDashboard: UICollectionReusableView {
         let pieHeight = pieWidth
         
         pieChart.frame = CGRect(x: pieX, y: pieY, width: pieWidth, height: pieHeight)
-        self.addSubview(pieChart)
+        mainView.addSubview(pieChart)
         
         //Price label
         let priceWidth = CGFloat(170)
@@ -117,7 +119,10 @@ class CollectionViewDashboard: UICollectionReusableView {
         let priceY = CGFloat(pieY+(pieWidth/2)-(priceHeight/2))
         
         priceLbl.frame = CGRect(x: priceX, y: priceY, width: priceWidth, height: priceHeight)
-        self.addSubview(priceLbl)
+        mainView.addSubview(priceLbl)
+        
+        mainView.frame = CGRect(x: 20, y: 0, width: Int(UIScreen.main.bounds.size.width)-40, height: cellHeight)
+        self.addSubview(mainView)
     }
     
     required init?(coder: NSCoder) {
