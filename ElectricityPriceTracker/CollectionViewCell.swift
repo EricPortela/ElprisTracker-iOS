@@ -11,7 +11,6 @@ class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var dateLbl: UILabel!
     @IBOutlet weak var priceLbl: UILabel!
-    @IBOutlet weak var timeFrame: UIView!
     
     
 }

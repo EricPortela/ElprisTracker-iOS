@@ -161,9 +161,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CollectionViewCell
         
-        //cell?.timeFrame.layer.cornerRadius = 10
-        cell?.timeFrame.layer.backgroundColor = UIColor.clear.cgColor
-        
+        //cell?.timeFrame.layer.cornerRadius = 10        
         cell?.contentView.layer.cornerRadius = 2.0
         cell?.contentView.layer.borderWidth = 1.0
         cell?.contentView.layer.borderColor = UIColor.clear.cgColor
@@ -182,7 +180,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let width: CGFloat = (CGFloat(UIScreen.main.bounds.size.width)) - 40
+        let width: CGFloat = (CGFloat(UIScreen.main.bounds.size.width))
         let height: CGFloat = 115
         
         return CGSize(width: width, height: height)
@@ -211,6 +209,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 40
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 20, left: 0, bottom: 20, right: 20)
     }
     
 }
