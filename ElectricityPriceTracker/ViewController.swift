@@ -11,12 +11,7 @@ import SwiftSoup
 class ViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
-    @IBOutlet weak var topDashboard: UIView!
-    
-    @IBOutlet weak var cheapestPrice: UILabel!
-    
-    @IBOutlet weak var cheapestHour: UILabel!
+    @IBOutlet weak var dayDateLbl: UILabel!
     
     let dateFormatter = DateFormatter()
     let calendar = Calendar.current
@@ -24,6 +19,7 @@ class ViewController: UIViewController {
     
     var timeStamps: [Date] = [] //[Date] = []
     var prices: [Double] = []
+    var lowestAndAveragePrice: (Double, Double) = (0,0)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,16 +32,23 @@ class ViewController: UIViewController {
         collectionView.delegate = self
         collectionView.register(CollectionViewDashboard.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "dashboardHeader")
         
-        topDashboard.layer.borderWidth = 2
-        topDashboard.layer.cornerRadius = 10
-        topDashboard.layer.backgroundColor = UIColor(red: 0.01, green: 0.81, blue: 0.64, alpha: 1.00).cgColor
-        
+        setDayAndDate()
     }
     
     private func setUpDateFormatter() -> Void {
         dateFormatter.timeZone = .current
         dateFormatter.locale = Locale(identifier: "sv_SE")
         dateFormatter.dateFormat = "yyyy-MM-dd' 'HH:mm"
+    }
+    
+    private func setDayAndDate() -> Void {
+        let dateFormatter = DateFormatter()
+        let date = Date() //sets constant date to current date
+        dateFormatter.dateFormat = "EEEE" //Format that only gets the day
+        
+        let weekDay: String = dateFormatter.string(from: date)
+        
+        dayDateLbl.text = (weekDay)
     }
     
     private func getCheapest(data: (Array<Date>, Array<Double>)) -> (Date, Double) {
@@ -62,6 +65,19 @@ class ViewController: UIViewController {
             }
         }
         return (date, price)
+    }
+    
+    private func getAveragePrice(data: Array<Double>) -> Double {
+        var sum: Double = 0
+        var average: Double = 0
+        
+        for i in data {
+            sum += i
+        }
+        
+        average = sum/Double(data.count)
+        
+        return average
     }
     
     
@@ -101,17 +117,20 @@ class ViewController: UIViewController {
                              */
                             
                         }
-                        self.collectionView.reloadData()
                         
                         let cheapestDatapoint = self.getCheapest(data: (self.timeStamps, self.prices))
+                        let averagePrice = self.getAveragePrice(data: self.prices)
                         
                         let cheapestTime = cheapestDatapoint.0
-                        let cheapestHour = cheapestDatapoint.1
+                        let cheapestPrice = cheapestDatapoint.1
                         
                         let hour = String(self.calendar.component(.hour, from: cheapestTime))
-
-                        self.cheapestHour.text = hour + ":00"
-                        self.cheapestPrice.text = String(format: "%.2f", cheapestHour) + " öre/kWh"
+                        
+                        self.lowestAndAveragePrice = (cheapestPrice, averagePrice)
+                        
+                        self.collectionView.reloadData()
+                        //self.cheapestHour.text = hour + ":00"
+                        //self.cheapestPrice.text = String(format: "%.2f", cheapestHour) + " öre/kWh"
                     }
                     
                     catch {
@@ -173,6 +192,12 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "dashboardHeader", for: indexPath) as? CollectionViewDashboard
         
+        let lowest = lowestAndAveragePrice.0
+        let average = lowestAndAveragePrice.1
+        
+        header?.setLowestPrice(price: lowest)
+        header?.preparePieChartData(lowestPrice: lowest, averagePrice: average)
+        
         return header!
     }
     
@@ -187,6 +212,5 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 40
     }
-    
     
 }

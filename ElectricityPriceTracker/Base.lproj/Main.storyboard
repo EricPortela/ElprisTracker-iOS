@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Maa-Wh-Ol9">
-                                <rect key="frame" x="20" y="239" width="374" height="643"/>
+                                <rect key="frame" x="20" y="105" width="374" height="777"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="oOH-aR-Nd4"/>
@@ -88,7 +88,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billigaste timmen idag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnG-pv-rPp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnG-pv-rPp">
                                 <rect key="frame" x="20" y="54" width="374" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="WPk-hU-dZW"/>
@@ -97,64 +97,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMI-q4-ych">
-                                <rect key="frame" x="20" y="91" width="374" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pris" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HML-04-QOI">
-                                        <rect key="frame" x="8" y="32" width="358" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="358" id="AZJ-Ut-vfA"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timme" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyJ-ph-myL">
-                                        <rect key="frame" x="8" y="73" width="358" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="358" id="eny-Cx-7Mg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="fyJ-ph-myL" secondAttribute="trailing" constant="8" id="NYN-Lg-4ua"/>
-                                    <constraint firstItem="HML-04-QOI" firstAttribute="leading" secondItem="HMI-q4-ych" secondAttribute="leading" constant="8" id="Qn5-Sj-KaT"/>
-                                    <constraint firstItem="fyJ-ph-myL" firstAttribute="top" secondItem="HML-04-QOI" secondAttribute="bottom" constant="17" id="aTn-qM-9rK"/>
-                                    <constraint firstItem="fyJ-ph-myL" firstAttribute="top" secondItem="HML-04-QOI" secondAttribute="bottom" constant="17" id="c62-ar-Lgm"/>
-                                    <constraint firstAttribute="bottom" secondItem="fyJ-ph-myL" secondAttribute="bottom" constant="31" id="dsx-eA-s5X"/>
-                                    <constraint firstAttribute="trailing" secondItem="HML-04-QOI" secondAttribute="trailing" constant="8" id="evq-Kb-sWO"/>
-                                    <constraint firstAttribute="width" constant="374" id="lA7-Og-qnH"/>
-                                    <constraint firstItem="HML-04-QOI" firstAttribute="top" secondItem="HMI-q4-ych" secondAttribute="top" constant="32" id="q2A-CV-PaP"/>
-                                    <constraint firstItem="fyJ-ph-myL" firstAttribute="leading" secondItem="HMI-q4-ych" secondAttribute="leading" constant="8" id="wdi-q0-KJ0"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UnG-pv-rPp" secondAttribute="trailing" constant="20" id="42q-Q4-uaT"/>
-                            <constraint firstItem="Maa-Wh-Ol9" firstAttribute="top" secondItem="HMI-q4-ych" secondAttribute="bottom" constant="20" id="6oo-uW-ZO7"/>
                             <constraint firstItem="Maa-Wh-Ol9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="7Ko-uk-c1x"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Maa-Wh-Ol9" secondAttribute="trailing" constant="20" id="ANS-RL-ucx"/>
-                            <constraint firstItem="HMI-q4-ych" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="B6l-XZ-uQN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HMI-q4-ych" secondAttribute="trailing" constant="20" id="Cvd-gN-UyE"/>
                             <constraint firstItem="UnG-pv-rPp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HxQ-RA-8xG"/>
-                            <constraint firstItem="HMI-q4-ych" firstAttribute="top" secondItem="UnG-pv-rPp" secondAttribute="bottom" constant="8" id="WEZ-eO-LB9"/>
+                            <constraint firstItem="Maa-Wh-Ol9" firstAttribute="top" secondItem="UnG-pv-rPp" secondAttribute="bottom" constant="22" id="XAj-tB-L85"/>
                             <constraint firstItem="UnG-pv-rPp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="YUO-EO-Opx"/>
                             <constraint firstItem="Maa-Wh-Ol9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oiE-4o-qtZ"/>
-                            <constraint firstItem="Maa-Wh-Ol9" firstAttribute="top" secondItem="HMI-q4-ych" secondAttribute="bottom" constant="20" id="omu-2A-3Vc"/>
-                            <constraint firstItem="HMI-q4-ych" firstAttribute="top" secondItem="UnG-pv-rPp" secondAttribute="bottom" constant="8" symbolic="YES" id="wME-Qu-Cmm"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cheapestHour" destination="fyJ-ph-myL" id="gOM-hH-BhN"/>
-                        <outlet property="cheapestPrice" destination="HML-04-QOI" id="SYA-v0-5Hi"/>
                         <outlet property="collectionView" destination="Maa-Wh-Ol9" id="Kym-Ul-vjC"/>
-                        <outlet property="topDashboard" destination="HMI-q4-ych" id="qQK-wv-Jnl"/>
+                        <outlet property="dayDateLbl" destination="UnG-pv-rPp" id="dWk-B3-bw4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
