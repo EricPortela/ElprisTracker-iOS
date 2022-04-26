@@ -39,6 +39,4 @@ To do:
 
 --> Manuellt inlägg av olika sorters prispåslag (nätet, skatter, etc.)
 
-Kör .xcworkspace filen.
-
 Swiftsoup används för att "parse:a" data från hemsidan.
