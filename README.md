@@ -2,7 +2,7 @@
      <img src="https://user-images.githubusercontent.com/58792679/165780947-31f2f6d6-7684-4348-b4e1-a4cfb4fc3273.png" width=300px>
      <br>
      <br>
-     <a> ELLYS är en iOS app, vilken tillhandahåller timpriser på el för innevarande dag, genom att skrapa spotpriser från elen.nu. Datan presenteras i ett användarvänligt gränssnitt. Ett projekt gjort vid sidan om studier i Datavetenskap på LTH. 
+     <a> ELLYS är en iOS app, vilken tillhandahåller timpriser på el för innevarande dag, genom att skrapa spotpriser från elen.nu. Datan presenteras i ett användarvänligt gränssnitt. Ett projekt gjort vid sidan om studier i datavetenskap på LTH. 
      </a>
 </p>
      
